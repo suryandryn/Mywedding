@@ -1,0 +1,223 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+header #navbar-example2{
+    background-color:#e7e5e1ef;
+}
+
+header #navbar-example2 li a:hover{
+    color: #212529;
+}
+
+header .navbar-brand{
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.top-nav{
+    text-align: center;
+}
+
+.top-nav .logo {
+    content: url('assets/image-desktop.png');
+}
+
+.top-nav .card-img-overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    padding-top: 150px;
+}
+
+.top-nav .card-title{
+    font-family: "Bona Nova SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+}
+
+.top-nav .card-title, .card-text{
+    color: #212529;
+}  
+
+.about-us, .our-services, .get-in-touch{
+    background-color: #ede2cf;
+    padding: 40px;
+}
+
+.about-us h1, .our-services h1, .get-in-touch h1{
+    text-align: center;
+}
+
+.why, .testimonial{
+    background-color: rgba(250, 235, 215, 0.1);
+    padding: 40px;
+}
+
+.why h1, .testimonial h1{
+    text-align: center;
+}
+
+.why .desc{
+    text-align: center;
+}
+
+.why .row{
+    padding: 20px 60px;
+}
+
+.why .card-body{
+    text-align: center;
+}
+
+.why .card-hover {
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.why .card-hover:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.our-services .card-hover {
+    transition: box-shadow 0.3s ease-in-out;
+    background-color: #ededed;
+}
+
+.our-services .card-hover:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    background-color: #fff;
+}
+
+.our-services .btn-hover:hover{
+    background-color: #f7e7d8;
+    color: #212529;
+}
+
+.get-in-touch .main-get-in-touch{
+    padding: 0px 200px;
+}
+
+.get-in-touch .main-get-in-touch textarea{
+    height: 150px;
+}
+
+.get-in-touch .main-get-in-touch button{
+    padding: 5px 50px;
+    border-radius: 30px;
+}
+
+footer{
+    padding: 40px;
+}
+
+footer .row{
+    padding-top: 10px;
+}
+
+footer h2{
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+    padding-bottom: 10px;
+}
+
+footer p{
+    padding-bottom: 10px;
+}
+
+footer .social-media i{
+    font-size: 30px;
+    width: 30px; 
+    height: 30px; 
+    display: inline-block;
+}
+
+footer .item{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+}
+
+footer .credits{
+    background-color: black;
+}
+
+@media (max-width: 770px) {
+    footer .item{
+        padding-top: 40px;
+    }
+
+    footer .contact{
+        padding-left: 30px;
+        padding-top: 40px;
+    }
+}
+
+/* Mobile Device */
+@media (max-width: 576px) {
+
+    .top-nav .logo {
+        content: url('assets/image-mobile.png');
+    }
+
+    .top-nav .card-img-overlay {
+        padding-top: 130px;
+    }
+
+    .top-nav .card-title{
+        font-family: "Bona Nova SC", serif;
+        font-weight: 400;
+        font-style: normal;
+          font-size: 20px;
+    }
+
+    .top-nav .card-text{
+        font-size: 10px;
+    }
+
+    .about-us .text{
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .get-in-touch .main-get-in-touch{
+        padding: 0px 20px;
+    }
+
+    footer .item{
+        padding-top: 40px;
+    }
+
+    footer .contact{
+        padding-left: 30px;
+        padding-top: 40px;
+    }
+}
